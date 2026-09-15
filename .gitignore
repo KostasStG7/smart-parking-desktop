@@ -1,0 +1,25 @@
+# Build output
+*.class
+out/
+out_new/
+target/
+build/
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Local credentials and logs
+config.local.ps1
+.env
+.env.*
+!.env.example
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
